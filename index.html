@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Les Polluants — Invisibles mais Dangereux</title>
+  <meta name="description" content="Comprendre les polluants, leurs effets sur la santé et comment réduire notre exposition." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0a1627;
+      --surface:#11203b;
+      --muted:#b5c2d1;
+      --accent1:#8df0a7;
+      --accent2:#56ccf2;
+      --radius:18px;
+      --shadow:0 10px 30px rgba(0,0,0,0.4);
+      --font:'Inter', sans-serif;
+    }
+
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:var(--font);
+      color:#f0f6fb;
+      background:linear-gradient(180deg,#071521 0%, #0a1e30 100%);
+      line-height:1.6;
+    }
+
+    header{
+      text-align:center;
+      padding:80px 20px 60px;
+      background:linear-gradient(135deg,var(--accent1) 0%, var(--accent2) 100%);
+      color:#04121b;
+    }
+    header h1{font-size:2.4rem;margin:0 0 10px;}
+    header p{font-size:1.1rem;max-width:700px;margin:0 auto;}
+
+    nav{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      background:#0f2034;
+      padding:12px 0;
+      position:sticky;top:0;z-index:10;
+      box-shadow:0 2px 6px rgba(0,0,0,0.3);
+    }
+    nav a{
+      color:var(--accent2);
+      text-decoration:none;
+      font-weight:600;
+      padding:6px 12px;
+      border-radius:8px;
+      transition:background 0.3s;
+    }
+    nav a:hover{background:rgba(255,255,255,0.05)}
+
+    main{max-width:1100px;margin:60px auto;padding:0 20px;display:flex;flex-direction:column;gap:60px;}
+
+    section{
+      background:var(--surface);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:40px;
+      position:relative;
+    }
+    section h2{
+      font-size:1.8rem;
+      margin-top:0;
+      color:var(--accent1);
+    }
+
+    .grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;}
+    .img-wrap{
+      overflow:hidden;border-radius:var(--radius);
+    }
+    .img-wrap img{width:100%;height:auto;display:block;transition:transform .6s ease;}
+    .img-wrap:hover img{transform:scale(1.05)}
+
+    ul{margin:12px 0 0 20px}
+
+    footer{
+      text-align:center;
+      padding:40px 20px;
+      color:var(--muted);
+      border-top:1px solid rgba(255,255,255,0.05);
+      background:#0b192d;
+    }
+
+    .highlight{
+      background:linear-gradient(90deg,rgba(141,240,167,0.1),rgba(86,204,242,0.05));
+      padding:18px;border-radius:var(--radius);margin-top:20px;
+    }
+
+    @media(max-width:700px){header h1{font-size:2rem;}section{padding:30px;}}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Les Polluants — Invisibles mais Dangereux</h1>
+    <p>Découvrez les sources, les effets sur la santé et les moyens concrets de réduire notre exposition pour un avenir plus sain 🌿</p>
+  </header>
+
+  <nav>
+    <a href="#definition">Définition</a>
+    <a href="#effets">Effets sur la santé</a>
+    <a href="#reduire">Réduire l’exposition</a>
+    <a href="#science">Science & Avenir</a>
+  </nav>
+
+  <main>
+    <section id="definition">
+      <div class="grid-2">
+        <div>
+          <h2>1. Qu’est-ce qu’un polluant ?</h2>
+          <p>Un polluant est une substance d’origine naturelle ou humaine qui, lorsqu’elle est présente en excès dans l’air, l’eau, le sol ou les aliments, met en danger les êtres vivants et les écosystèmes.</p>
+          <ul>
+            <li><strong>Sources humaines :</strong> transports, chauffage, agriculture, industrie, déchets</li>
+            <li><strong>Sources domestiques :</strong> produits ménagers, plastiques, cosmétiques</li>
+            <li><strong>Sources naturelles :</strong> volcans, poussières, pollens, incendies</li>
+          </ul>
+          <p><strong>Familles de polluants :</strong> chimiques, atmosphériques, biologiques et physiques.</p>
+        </div>
+        <div class="img-wrap">
+          <img src="https://images.unsplash.com/photo-1581092795361-1e7b1d49c5f6?auto=format&fit=crop&w=800&q=80" alt="pollution atmosphérique"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="effets">
+      <div class="grid-2">
+        <div class="img-wrap">
+          <img src="https://images.unsplash.com/photo-1612107557847-44d40d88a24b?auto=format&fit=crop&w=800&q=80" alt="effets sur la santé"/>
+        </div>
+        <div>
+          <h2>2. Effets sur la santé humaine</h2>
+          <p>Les polluants ne sont pas toujours visibles, mais leurs effets se manifestent souvent lentement et de façon cumulative.</p>
+          <ul>
+            <li><strong>Polluants de l’air :</strong> maladies respiratoires, cardiovasculaires, cancers.</li>
+            <li><strong>Métaux lourds :</strong> atteintes neurologiques, rénales et hépatiques.</li>
+            <li><strong>Perturbateurs endocriniens :</strong> troubles hormonaux, fertilité réduite, cancers.</li>
+            <li><strong>Polluants alimentaires :</strong> troubles digestifs, effets immunitaires à long terme.</li>
+          </ul>
+          <div class="highlight">
+            <p><em>Selon l’OMS (2023), la pollution atmosphérique provoque 7 millions de décès prématurés chaque année dans le monde.</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reduire">
+      <h2>3. Comment réduire notre exposition ?</h2>
+      <div class="grid-2">
+        <div>
+          <h3>À la maison</h3>
+          <ul>
+            <li>Aérer matin et soir</li>
+            <li>Utiliser des produits naturels : vinaigre, bicarbonate</li>
+            <li>Éviter les sprays chimiques et désodorisants</li>
+          </ul>
+          <h3>Dans notre consommation</h3>
+          <ul>
+            <li>Favoriser produits frais, locaux et sans plastique</li>
+            <li>Éviter les emballages jetables</li>
+            <li>Choisir des cosmétiques sans perturbateurs endocriniens</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Dans nos déplacements</h3>
+          <ul>
+            <li>Privilégier marche, vélo, transports collectifs</li>
+            <li>Réduire l’usage de la voiture</li>
+            <li>Soutenir la mobilité propre et la végétalisation</li>
+          </ul>
+          <h3>Collectivement</h3>
+          <ul>
+            <li>Soutenir la réglementation environnementale</li>
+            <li>Participer à des actions citoyennes</li>
+            <li>Éduquer à l’écologie dès le plus jeune âge</li>
+          </ul>
+        </div>
+      </div>
+      <div class="img-wrap" style="margin-top:30px">
+        <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1100&q=80" alt="nature propre et préservée"/>
+      </div>
+    </section>
+
+    <section id="science">
+      <div class="grid-2">
+        <div>
+          <h2>4. La science pour un avenir plus sain</h2>
+          <p>Les chercheurs œuvrent à mesurer les polluants émergents, comprendre les effets combinés des substances et créer des alternatives non toxiques.</p>
+          <p>Mais la prévention reste la meilleure défense.</p>
+          <div class="highlight"><strong>🌿 Protéger l’environnement, c’est protéger notre santé.</strong></div>
+        </div>
+        <div class="img-wrap">
+          <img src="https://images.unsplash.com/photo-1535241749838-299277b6305f?auto=format&fit=crop&w=800&q=80" alt="laboratoire scientifique écologique"/>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Créé avec ❤️ — Projet éducatif sur les polluants • Licence CC BY-NC</p>
+  </footer>
+</body>
+</html>
